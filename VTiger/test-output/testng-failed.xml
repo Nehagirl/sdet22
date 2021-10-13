@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test runner 1(failed)">
+    <classes>
+      <class name="purchaseOrderTestScript.T2_CreatePurchaseorderwithItemandAddService">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="CreatePurchaseorderwithItemandAddService"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T2_CreatePurchaseorderwithItemandAddService -->
+      <class name="purchaseOrderTestScript.T4_CreatePurchaseorderwithItemandDelete">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="CreatePurchaseorderwithItemandDelete"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T4_CreatePurchaseorderwithItemandDelete -->
+      <class name="purchaseOrderTestScript.T1_CreatePurchaseorderwithItemandAddProduct">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="CreatePurchaseorderwithItemandAddProduct"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T1_CreatePurchaseorderwithItemandAddProduct -->
+    </classes>
+  </test> <!-- Test runner 1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test runner 2(failed)">
+    <classes>
+      <class name="purchaseOrderTestScript.T2_CreatePurchaseorderwithItemandAddService">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="CreatePurchaseorderwithItemandAddService"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T2_CreatePurchaseorderwithItemandAddService -->
+      <class name="purchaseOrderTestScript.T5_CreatePurchaseorderwithItemandclickonUpwardsymbol">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="CreatePurchaseorderwithItemandclickonUpwardsymbol"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T5_CreatePurchaseorderwithItemandclickonUpwardsymbol -->
+      <class name="purchaseOrderTestScript.T1_CreatePurchaseorderwithItemandAddProduct">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="CreatePurchaseorderwithItemandAddProduct"/>
+          <include name="connectDB"/>
+          <include name="closeBrowser"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.T1_CreatePurchaseorderwithItemandAddProduct -->
+    </classes>
+  </test> <!-- Test runner 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

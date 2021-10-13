@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="purchaseOrderTestScript.CreatePurchaseorderwithItemandAddService">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="CreatePurchaseorderwithItemandAddService"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- purchaseOrderTestScript.CreatePurchaseorderwithItemandAddService -->
+    </classes>
+  </test> <!-- GRP-smoke(failed) -->
+</suite> <!-- Failed suite [VTiger by groups] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="purchaseOrderTestScript.T4_CreatePurchaseorderwithItemandDelete"/>
+      <class name="purchaseOrderTestScript.T1_CreatePurchaseorderwithItemandAddProduct"/>
+      <class name="purchaseOrderTestScript.T2_CreatePurchaseorderwithItemandAddService"/>
+      <class name="purchaseOrderTestScript.T5_CreatePurchaseorderwithItemandclickonUpwardsymbol"/>
+      <class name="purchaseOrderTestScript.RegionalReg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
