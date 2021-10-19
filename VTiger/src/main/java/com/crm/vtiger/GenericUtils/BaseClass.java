@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+
 import com.vtiger.pomrepositorylib.Home;
 import com.vtiger.pomrepositorylib.Login;
 
@@ -30,6 +31,7 @@ public class BaseClass {
 	public JavaUtility jlib=new JavaUtility();
 	public WebDriver driver;
 	public static WebDriver sDriver;
+
 	@BeforeSuite(groups = {"smokeTest","Regressionsuite"})
 	public void connectDB()
     {

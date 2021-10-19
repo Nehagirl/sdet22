@@ -1,6 +1,8 @@
 package purchaseOrderTestScript;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 
 import com.crm.vtiger.GenericUtils.BaseClass;
 import com.vtiger.pomrepositorylib.Home;
@@ -11,6 +13,8 @@ import com.vtiger.pomrepositorylib.Purchaseplus;
 import com.vtiger.pomrepositorylib.VendorCreate;
 import com.vtiger.pomrepositorylib.VendorName;
 
+//to take screenshot write this line
+@Listeners(com.crm.vtiger.GenericUtils.ListnerImpl.class)
 public class T1_CreatePurchaseorderwithItemandAddProduct extends BaseClass {
 	@Test(groups={"smokeTest"})
 	
